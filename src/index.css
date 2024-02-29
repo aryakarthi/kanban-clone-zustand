@@ -1,0 +1,26 @@
+:root {
+  --gray: #fff;
+  --gray-dark: #ccc;
+  --gray-light: #fff;
+  --white-light: #eee;
+  --in-progress: #eee648;
+  --done: #219C90;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray);
+  min-height: 100vh;
+  font-family: Helvetica, sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}

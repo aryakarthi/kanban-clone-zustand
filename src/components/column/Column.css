@@ -1,0 +1,37 @@
+.column {
+  background-color: var(--gray-dark);
+  min-height: 30rem;
+  color: #fff;
+  width: 33%;
+  max-width: 20rem;
+  margin: 1rem 0.5rem;
+  border-radius: 4px;
+  padding: 0.5rem;
+  border: dashed transparent 4px;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+}
+
+.state-title {
+  text-transform: uppercase;
+}
+
+.title-wrapper button {
+  all: unset;
+  color: white;
+  background: #387ADF;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  height: fit-content;
+}
+
+.title-wrapper button:hover {
+  cursor: pointer;
+  /* background: var(--gray-light); */
+}
