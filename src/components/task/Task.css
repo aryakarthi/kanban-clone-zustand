@@ -18,16 +18,29 @@
 
 .status {
   font-size: small;
+  color: white;
   text-transform: uppercase;
-  background-color: var(--white-light);
   padding: 0.25rem;
   border-radius: 4px;
+}
+
+.to-do {
+  background: var(--to-do);
 }
 
 .in-progress {
   background: var(--in-progress);
 }
 
+.in-qa {
+  background: var(--in-qa);
+}
+
 .done {
   background: var(--done);
+}
+
+.task img {
+  height: 1.25rem;
+  cursor: pointer;
 }

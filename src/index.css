@@ -1,10 +1,13 @@
 :root {
-  --gray: #fff;
-  --gray-dark: #ccc;
-  --gray-light: #fff;
-  --white-light: #eee;
-  --in-progress: #eee648;
-  --done: #219C90;
+  --gray: #555;
+  --gray-dark: #333;
+  --gray-light: #ccc;
+
+  --to-do: #387ADF;
+  --in-progress: #FFA33C;
+  --in-qa: #FC6736;
+  --done: #3EB489;
+
 }
 
 * {
